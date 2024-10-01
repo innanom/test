@@ -1,0 +1,26 @@
+:root {
+
+    --main-color: black;
+    --background-color: #FFFEFB;
+    --accent-color: #FFD00E;
+    --secondary-accent-color: linear-gradient(134deg, #FFDF00 -7.01%, #FFB800 109.07%);
+
+    
+    // --secondary-logo-color: #000000;
+    // --secondary-contacts-color: rgba(255, 255, 255, 0.6);
+    // --color-shadow-hero-button: rgba(0, 0, 0, 0.15);
+    // --color-bg-btn-filters: #F5F4FA;
+    // --border-color: #EEEEEE;
+    // --main-icons-color: #AFB1B8;
+
+
+    /* Fonts */
+    --main-font: Lato;
+    --second-font: Jomolhari;
+    --main-font-size: 16px;
+    --secondary-font-size: 20px;
+    --title-font: 44px;
+
+    // Others
+    --anima-fast: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
