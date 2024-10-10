@@ -1,3 +1,63 @@
+// @font-face {
+//     font-family: 'Proxima Nova';
+//     src: url('ProximaNova-Regular.eot');
+//     src: local('Proxima Nova Regular'), local('ProximaNova-Regular'),
+//         url('ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+//         url('../../font/ProximaNova-Regular.woff2') format('woff2'),
+//         url('ProximaNova-Regular.woff') format('woff'),
+//         url('ProximaNova-Regular.ttf') format('truetype');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
+// @font-face {
+//     font-family: 'Proxima Nova';
+//     src: url('ProximaNova-Semibold.eot');
+//     src: local('Proxima Nova Semibold'), local('ProximaNova-Semibold'),
+//         url('ProximaNova-Semibold.eot?#iefix') format('embedded-opentype'),
+//         url('ProximaNova-Semibold.woff2') format('woff2'),
+//         url('ProximaNova-Semibold.woff') format('woff'),
+//         url('ProximaNova-Semibold.ttf') format('truetype');
+//     font-weight: 600;
+//     font-style: normal;
+// }
+
+// @font-face {
+//     font-family: 'Proxima Nova';
+//     src: url('ProximaNova-Bold.eot');
+//     src: local('Proxima Nova Bold'), local('ProximaNova-Bold'),
+//         url('ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+//         url('ProximaNova-Bold.woff2') format('woff2'),
+//         url('ProximaNova-Bold.woff') format('woff'),
+//         url('ProximaNova-Bold.ttf') format('truetype');
+//     font-weight: bold;
+//     font-style: normal;
+// }
+
+// @font-face {
+//     font-family: 'Proxima Nova';
+//     src: url('ProximaNova-Extrabld.eot');
+//     src: local('Proxima Nova Extrabold'), local('ProximaNova-Extrabld'),
+//         url('ProximaNova-Extrabld.eot?#iefix') format('embedded-opentype'),
+//         url('ProximaNova-Extrabld.woff2') format('woff2'),
+//         url('ProximaNova-Extrabld.woff') format('woff'),
+//         url('ProximaNova-Extrabld.ttf') format('truetype');
+//     font-weight: 800;
+//     font-style: normal;
+// }
+
+// @font-face {
+//     font-family: 'Proxima Nova';
+//     src: url('ProximaNova-Black.eot');
+//     src: local('Proxima Nova Black'), local('ProximaNova-Black'),
+//         url('ProximaNova-Black.eot?#iefix') format('embedded-opentype'),
+//         url('ProximaNova-Black.woff2') format('woff2'),
+//         url('ProximaNova-Black.woff') format('woff'),
+//         url('ProximaNova-Black.ttf') format('truetype');
+//     font-weight: 900;
+//     font-style: normal;
+// }
+
 html {
     box-sizing: border-box;
     scroll-behavior: smooth;
@@ -11,10 +71,10 @@ html {
 
 body {
     height: 100%;
-    font-family: var(--main-font), sans-serif;
+    font-family: 'Proxima Nova', sans-serif;
     background-color: var(--background-color);
     color: var(--main-color);
-    font-size: 16px;
+    font-size: 18px;
 
     &.no-scroll {
         overflow: hidden;

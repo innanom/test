@@ -8,12 +8,16 @@ p {
     margin: 0;
 }
 
+;
+
 // === Посилання ===
 
 a {
     text-decoration: none;
-    color: currentColor;
+    color: var(--main-color)
 }
+
+;
 
 // === Стилі списку ===
 
@@ -23,6 +27,8 @@ ul {
     padding: 0;
 }
 
+;
+
 svg {
     display: block;
     padding: 0;
@@ -30,11 +36,18 @@ svg {
 
 }
 
+;
+
 button,
 a {
     user-select: none;
 }
 
+;
+
 button {
     border: 0;
 }
+
+;
+
