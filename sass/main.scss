@@ -1,5 +1,6 @@
 // utils styles
 @import './utils/variables';
+@import './utils/placeholder';
 
 // base styles
 @import './base/reset';
@@ -8,4 +9,8 @@
 
 
 // components styles
+@import './component/header';
+@import './component/nav';
+@import './component/social';
+@import './component/contacts';
 
