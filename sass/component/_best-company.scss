@@ -1,0 +1,48 @@
+.best-company {
+    @extend %container;
+    
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: var(--secondary-accent-color);
+
+    display: grid;
+        grid-template-columns: repeat(2, 1fr);
+}
+
+.best-company__title {
+    margin-bottom: 50px;
+    font-size: 44px;
+    font-weight: 800;
+    line-height: 1.25;
+}
+
+.best-company__text{
+    width: 870px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 28.5px;
+    font-size: 20px;
+    line-height: 1.50;
+}
+
+.best-company__text--bolt{
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+.best-company__text--semibolt {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 1.50;
+}
+
+.clients{
+    display: flex;
+    gap: 50px;
+}
+
+.best-company__img{
+    margin: 0 auto;
+}
