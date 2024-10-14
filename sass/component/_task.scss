@@ -1,0 +1,30 @@
+.task {
+    @extend %container;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.task__title{
+    margin-bottom: 50px;
+    font-size: 44px;
+    font-weight: 800;
+    line-height: 1.25;
+}
+
+.task__wrapper {
+    display: flex;
+    gap: 40px;
+}
+.task__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    font-size: 20px;
+    line-height: 1.50;
+}
+.task__text--bolt {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.50;
+}
