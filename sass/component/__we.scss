@@ -1,13 +1,14 @@
 .we {
     @extend %container;
 
-    padding-top: 205px;
+    padding-top: 100px;
     padding-bottom: 100px;
     
 }
 
 .we__wrapper {
     position: relative;
+    margin-bottom: 50px;
 }
 
 .we__title {
@@ -130,4 +131,26 @@
     width: 131px;
     height: 136px;
 
+}
+
+.swiper .swiper-slide {
+    width: auto;
+}
+
+.swiper .swiper-button-prev::after,
+.swiper .swiper-button-next::after {
+    display: none;
+}
+.swiper .swiper-button-prev {
+    width: 56px;
+    height: 53px;
+    left: 0px;
+    top: 38px;
+       
+}
+
+.swiper .swiper-button-next {
+    width: 56px;
+    height: 53px;
+    right: 0;
 }
