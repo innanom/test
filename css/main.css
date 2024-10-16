@@ -7,7 +7,7 @@
   --anima-fast: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.we, .best-company, .task, .hero, .header {
+.drupal, .we, .best-company, .task, .hero, .header {
   width: 1920px;
   margin-left: auto;
   margin-right: auto;
@@ -250,7 +250,6 @@ img {
 .circle {
   width: 16px;
   height: 16px;
-  opacity: 0.2;
   border-radius: 50%;
   border: 1px solid;
 }
@@ -370,7 +369,6 @@ img {
 
 .we {
   padding-top: 100px;
-  padding-bottom: 100px;
 }
 
 .we__wrapper {
@@ -549,4 +547,63 @@ img {
   width: 56px;
   height: 53px;
   right: 0;
+}
+
+.drupal {
+  padding-top: 100px;
+}
+
+.drupal__title {
+  margin-bottom: 70px;
+  font-size: 44px;
+  font-weight: 800;
+  line-height: 1.25;
+}
+
+.drupal__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 30px;
+}
+
+.drupal__item {
+  padding: 20px 30px 30px 30px;
+  width: 570px;
+  height: 211px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 2px solid rgba(69, 77, 82, 0.05);
+  background: #FFF;
+  background-image: url("../../images/drupal/drupal-bg.svg");
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+  -webkit-transition: var(--anima-fast);
+  transition: var(--anima-fast);
+}
+.drupal__item:hover, .drupal__item:focus {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 221, 0, 0.1)), to(rgba(255, 184, 0, 0.1)));
+  background: linear-gradient(rgba(255, 221, 0, 0.1), rgba(255, 184, 0, 0.1));
+}
+
+.drupal__img {
+  margin-bottom: 15px;
+}
+
+.drupal__subtitle {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.drupal__text {
+  font-size: 16px;
+  line-height: 1.25;
+}
+
+.drupal__bolt {
+  font-weight: 700;
 }/*# sourceMappingURL=main.css.map */
