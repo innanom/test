@@ -7,7 +7,7 @@
   --anima-fast: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients__title, .drupal, .we, .best-company, .task, .hero, .header {
+.charity, .clients__title, .drupal, .we, .best-company, .task, .hero, .header {
   width: 1920px;
   margin-left: auto;
   margin-right: auto;
@@ -651,4 +651,62 @@ img {
 
 .swiper .arrow__rigth {
   right: 47px;
+}
+
+.charity {
+  padding-top: 100px;
+}
+
+.charity__title {
+  margin-bottom: 76px;
+  font-size: 44px;
+  font-weight: 800;
+  line-height: 1.25;
+}
+
+.charity {
+  display: grid;
+  grid-template-columns: 749px 1fr;
+  grid-template-rows: 467px;
+  gap: 143px;
+}
+
+.charity__text {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.charity__text--bolt {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.charity__img {
+  position: relative;
+}
+
+.charity__img--1 {
+  position: absolute;
+  z-index: 3;
+  right: 103px;
+  bottom: 0;
+  border-radius: 5px;
+}
+
+.charity__img--2 {
+  position: absolute;
+  z-index: 2;
+  top: 75px;
+  bottom: 45px;
+  border-radius: 5px;
+}
+
+.charity__img--3 {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  border-radius: 5px;
 }/*# sourceMappingURL=main.css.map */
