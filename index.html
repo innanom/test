@@ -1,443 +1,602 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Glyanec-test</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/main.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    
-</head>
-<body>
+  </head>
+  <body>
     <!-- Header -->
-     <header class="header">
-        <img class="header__logo" src="./images/logo.svg" alt="logo">
-        <nav class="nav">
-            <ul class="nav__list">
-                <li class="nav__item">
-                    <a class="nav__link" href="#why">Чому ми?</a>
-                </li>
-                <li  class="nav__item">
-                    <a class="nav__link" href="#partners">Партнери</a>
-                </li>
-                <li  class="nav__item">
-                    <a class="nav__link" href="#charity">Благодійність</a>
-                </li>
-                <li  class="nav__item">
-                    <a class="nav__link" href="#about">Про нас</a>
-                </li>
-                <li  class="nav__item">
-                    <a class="nav__link" href="#drupal">Drupal</a>
-                </li>
-            </ul>
-        </nav>
-        <ul class="social_list">
-            <li class="social__item">
-                <a class="social__link" href="https://www.facebook.com/">
-                    <img class="social__icon" src="./images/social/facebook.svg" alt="facebook">
-                </a>
-            </li>
-            <li class="social__item">
-                <a class="social__link" href="https://www.instagram.com/">
-                    <img class="social__icon" src="./images/social/instagram.svg" alt="instagram">
-                </a>
-            </li>
-            <li class="social__item">
-                <a class="social__link" href="https://www.viber.com/">
-                    <img class="social__icon" src="./images/social/viber.svg" alt="viber">
-                </a>
-            </li>
+    <header class="header">
+      <img class="header__logo" src="./images/logo.svg" alt="logo" />
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a class="nav__link" href="#why">Чому ми?</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#partners">Партнери</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#charity">Благодійність</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#about">Про нас</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#drupal">Drupal</a>
+          </li>
         </ul>
-        <div class="contacts">
-            <p class="contacts__days">Пн-Пт з 10 до 18</p>
-            <p class="contacts__phone">0 (800) 759-759
-                <img class="contacts__icon" src="./images/chevron_down.svg" alt="chevron-down">
-            </p>
+      </nav>
+      <ul class="social_list">
+        <li class="social__item">
+          <a class="social__link" href="https://www.facebook.com/">
+            <img class="social__icon" src="./images/social/facebook.svg" alt="facebook" />
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link" href="https://www.instagram.com/">
+            <img class="social__icon" src="./images/social/instagram.svg" alt="instagram" />
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link" href="https://www.viber.com/">
+            <img class="social__icon" src="./images/social/viber.svg" alt="viber" />
+          </a>
+        </li>
+      </ul>
+      <div class="contacts">
+        <p class="contacts__days">Пн-Пт з 10 до 18</p>
+        <p class="contacts__phone">
+          0 (800) 759-759
+          <img class="contacts__icon" src="./images/chevron_down.svg" alt="chevron-down" />
+        </p>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+      <p class="hero__text">Вебстудія №1 з розробки сайтів</p>
+      <h1 class="hero__title">
+        Приєднуйтесь до нашої <br />
+        IT-команди
+      </h1>
+      <p class="hero__text">
+        Відкрийте нові перспективи кар'єрного зростання, приєднавшись до нашої інноваційної
+        IT-команди, <br />
+        яка відкриває двері до безмежних можливостей
+      </p>
+      <a class="hero__button">Спробуй свої сили</a>
+      <div class="hero__circle">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle circle-accent"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+      </div>
+      <div class="hero__more">
+        <a class="hero__more--link" href="">
+          Дізнатися більше
+          <img class="hero__arrow" src="./images/icon/Arrow.svg" alt="" />
+        </a>
+      </div>
+    </section>
+
+    <!-- Technical task -->
+    <section class="task">
+      <h2 class="task__title">Перевірка тествого завдання</h2>
+      <div class="task__wrapper">
+        <img class="tasl__img" src="./images/Task-img.jpg" alt="employees work on a computer" />
+        <div class="task__text">
+          <p>
+            Ми цінуємо ваш час та зусилля, тому намагаємося забезпечити оперативну відповідь на ваші
+            тестові роботи. Наша команда керівників та співробітників займається перевіркою усіх
+            робіт ВРУЧНУ перевіряє всі роботи, гарантуючи високу якість оцінки.
+          </p>
+          <p>
+            <span class="task__text--bolt"
+              >На першому етапі вашу роботу перевірить керівник відділу розвитку талантів —
+              Олена.</span
+            >
+          </p>
+          <p>
+            Перевірку другого етапу, в залежності від посади на яку ви претендуєте, буде здійснювати
+            керівник відповідноговідділу (наприклад,<span class="task__text--bolt">
+              керівник відділу верстки</span
+            >
+            у разі подання заявки на посаду верстальника).
+          </p>
+          <p>
+            Ми розуміємо, як важливо для вас отримати швидку відповідь, тому перевіряємо ваші<span
+              class="task__text--bolt"
+            >
+              тестові завдання</span
+            >
+            навіть після завершення робочого дня. Наша команда цінує кожного потенційного кандидата
+            і робить усе можливе, щоб забезпечити ретельну оцінку ваших здібностей та швидко
+            повідомити результат.
+          </p>
         </div>
-     </header>
+      </div>
+    </section>
 
-     <!-- Hero -->
-      <section class="hero">
-        <p class="hero__text">Вебстудія №1 з розробки сайтів</p>
-        <h1 class="hero__title">Приєднуйтесь до нашої <br> IT-команди</h1>
-        <p class="hero__text">Відкрийте нові перспективи кар'єрного зростання, приєднавшись до нашої інноваційної IT-команди, <br>
-        яка відкриває двері до безмежних можливостей</p>
-        <a class="hero__button">Спробуй свої сили</a>
-        <div class="hero__circle">
-            <div class="circle"></div>
-            <div class="circle"></div>
-            <div class="circle circle-accent"></div>
-            <div class="circle"></div>
-            <div class="circle"></div>
+    <!-- Best company -->
+    <section class="best-company">
+      <div class="best-company__wrapper">
+        <h2 class="best-company__title">Найкраща компанія для роботи в IT</h2>
+        <div class="best-company__text">
+          <p>
+            <span class="best-company__text--bolt"
+              >Вебстудія Глянець — команда, яка налічує понад 50 професіоналів</span
+            >
+          </p>
+          <p>
+            Наша компанія має власний офіс, хостинг, проводить навчання кадрів, здійснює контроль
+            якості кожного проєкту.
+          </p>
+          <p>
+            За час своєї роботи ми розробили сотні інтернет-магазинів, які працюють у всіх країнах
+            світу, продаючи своїм замовникам тисячі товарів на добу.
+          </p>
+          <p>
+            <span class="best-company__text--semibolt">Глянець</span> — це надійність. Перевірено
+            досвідом!
+          </p>
         </div>
-        <div class="hero__more">
-            <a  class="hero__more--link" href="">
-                Дізнатися більше
-                <img class="hero__arrow" src="./images/icon/Arrow.svg" alt="">
-            </a>
+        <ul class="partners">
+          <li class="partners__item">
+            <img src="./images/best-company/Ukraine.svg" alt="logo client" />
+          </li>
+          <li class="partners__item">
+            <img src="./images/best-company/alternative.svg" alt="logo client" />
+          </li>
+          <li class="partners__item">
+            <img src="./images/best-company/helpdesk.svg" alt="logo client" />
+          </li>
+        </ul>
+      </div>
+      <img class="best-company__img" src="./images/best-company/Best-com-bg.svg" alt="" />
+    </section>
+
+    <!-- У нас -->
+    <section class="we">
+      <h2 class="we__title">У нас</h2>
+      <div class="we__wrapper">
+        <div class="we__block--1">
+          <div class="we__item">
+            <div class="item-rigth__wrapper">
+              <h3 class="item__title">Зручний графік</h3>
+              <p class="item__text">
+                Ми розуміємо, що кожна людина має унікальні потреби та обставини, тому пропонуємо
+                гнучкий режим роботи, який враховує
+                <span class="text__bolt">індивідуальні вимоги</span> та дозволяє пристосуватися до
+                них.
+              </p>
+            </div>
+            <div class="img__wrapper">
+              <img class="item__img" src="./images/icon/time 1.svg" alt="clock" />
+            </div>
+          </div>
+          <div class="we__item">
+            <div class="img__wrapper">
+              <img class="item__img" src="./images/icon/accounts 1.svg" alt="acount" />
+            </div>
+            <div class="item-left__wrapper">
+              <h3 class="item__title">Постійне зростання надходжень</h3>
+              <p class="item__text">
+                У нашій компанії ми працюємо над тим, щоб надходження
+                <span class="text__bolt">постійно зростали.</span> Наша мета — допомогти вам досягти
+                фінансового успіху.
+              </p>
+            </div>
+          </div>
         </div>
-        
-      </section>
-
-      <!-- Technical task -->
-       <section class="task">
-            <h2 class="task__title">Перевірка тествого завдання</h2>
-            <div class="task__wrapper">
-                <img class="tasl__img" src="./images/Task-img.jpg" alt="employees work on a computer">
-                <div class="task__text">
-                    <p>Ми цінуємо ваш час та зусилля, тому намагаємося забезпечити оперативну відповідь на ваші тестові роботи. Наша команда
-                        керівників та співробітників займається перевіркою усіх робіт ВРУЧНУ перевіряє всі роботи, гарантуючи високу якість
-                        оцінки.</p>
-                    <p><span class="task__text--bolt">На першому етапі вашу роботу перевірить керівник відділу розвитку талантів — Олена.</span></p>
-                        <p>Перевірку другого етапу, в залежності від посади на яку ви претендуєте, буде здійснювати керівник відповідноговідділу (наприклад,<span class="task__text--bolt"> керівник відділу верстки</span> у разі подання заявки на посаду верстальника).</p>
-                    <p>Ми розуміємо, як важливо для вас отримати швидку відповідь, тому перевіряємо ваші<span class="task__text--bolt"> тестові завдання</span> навіть після
-                        завершення робочого дня. Наша команда цінує кожного потенційного кандидата і робить усе можливе, щоб забезпечити
-                        ретельну оцінку ваших здібностей та швидко повідомити результат.</p>
-                </div>
-               
+        <div class="we__block--2">
+          <div class="we__item">
+            <div class="item-rigth__wrapper">
+              <h3 class="item__title">Комфортний офіс</h3>
+              <p class="item__text">
+                Для співробітників є комфортні
+                <span class="text__bolt">робочі місця і зручні зони відпочинку,</span> що сприяють
+                розслабленню та відновленню енергії. Використовуємо
+                <span class="text__bolt">Starlink,</span> тому завжди на звʼязку.
+              </p>
             </div>
-            
-       </section>
-
-       <!-- Best company -->
-        <section class="best-company">
-            <div class="best-company__wrapper">
-                <h2 class="best-company__title">Найкраща компанія для роботи в IT</h2>
-                <div class="best-company__text">
-                    <p><span class="best-company__text--bolt">Вебстудія Глянець — команда, яка налічує понад 50 професіоналів</span></p>
-                    <p>Наша компанія має власний офіс, хостинг, проводить навчання кадрів, здійснює контроль якості кожного проєкту.</p>
-                    <p>За час своєї роботи ми розробили сотні інтернет-магазинів, які працюють у всіх країнах світу, продаючи своїм
-                        замовникам
-                        тисячі товарів на добу.</p>
-                    <p><span class="best-company__text--semibolt">Глянець</span> — це надійність. Перевірено досвідом!</p>
-                </div>
-                <ul class="partners">
-                    <li class="partners__item">
-                        <img src="./images/best-company/Ukraine.svg" alt="logo client">
-                    </li>
-                    <li class="partners__item">
-                        <img src="./images/best-company/alternative.svg" alt="logo client">
-                    </li>
-                    <li class="partners__item">
-                        <img src="./images/best-company/helpdesk.svg" alt="logo client">
-                    </li>
-                </ul>
+            <div class="img__wrapper">
+              <img class="item__img" src="./images/icon/location.svg" alt="location" />
             </div>
-            <img class="best-company__img" src="./images/best-company/Best-com-bg.svg" alt="">
-        </section>
-
-        <!-- У нас -->
-         <section class="we">
-            <h2 class="we__title">У нас</h2>
-            <div class="we__wrapper">
-                <div class="we__block--1">
-                    <div class="we__item">
-                        <div class="item-rigth__wrapper">
-                            <h3 class="item__title">Зручний графік</h3>
-                            <p class="item__text">Ми розуміємо, що кожна людина має унікальні потреби та обставини, тому пропонуємо
-                                гнучкий
-                                режим роботи, який враховує <span class="text__bolt">індивідуальні вимоги</span> та дозволяє
-                                пристосуватися до
-                                них.</p>
-                        </div>
-                        <div class="img__wrapper">
-                            <img class="item__img" src="./images/icon/time 1.svg" alt="clock">
-                        </div>
-                    </div>
-                    <div class="we__item">
-                        <div class="img__wrapper">
-                            <img class="item__img" src="./images/icon/accounts 1.svg" alt="acount">
-                        </div>
-                        <div class="item-left__wrapper">
-                            <h3 class="item__title">Постійне зростання надходжень</h3>
-                            <p class="item__text">У нашій компанії ми працюємо над тим, щоб надходження <span
-                                    class="text__bolt">постійно
-                                    зростали.</span> Наша мета — допомогти вам досягти фінансового успіху.</p>
-                        </div>
-                    </div>
-                
-                </div>
-                <div class="we__block--2">
-                    <div class="we__item">
-                        <div class="item-rigth__wrapper">
-                            <h3 class="item__title">Комфортний офіс</h3>
-                            <p class="item__text">Для співробітників є комфортні <span class="text__bolt">робочі місця і зручні зони
-                                    відпочинку,</span> що сприяють розслабленню та відновленню енергії. Використовуємо <span
-                                    class="text__bolt">Starlink,</span> тому завжди на звʼязку.</p>
-                        </div>
-                        <div class="img__wrapper">
-                            <img class="item__img" src="./images/icon/location.svg" alt="location">
-                        </div>
-                    </div>
-                    <div class="we__item">
-                        <div class="img__wrapper">
-                            <img class="item__img" src="./images/icon/client 1.svg" alt="client">
-                        </div>
-                        <div class="item-left__wrapper">
-                            <h3 class="item__title">Постійний потік клієнтів</h3>
-                            <p class="item__text">У нас потік <span class="text__bolt">нових замовлень,</span> тому щоразу ти зможеш
-                                спробувати реалізувати щось нове</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="we__block--3">
-                    <div class="we__item">
-                        <div class="item-rigth__wrapper">
-                            <h3 class="item__title">Швидкий розвиток</h3>
-                            <p class="item__text">За короткий проміжок часу ти <span class="text__bolt">стаєш повноцінним веброзробником</span> і тобі не важливо що то буде за макет, ти зможеш реалізувати все!</p>
-                        </div>
-                        <div class="img__wrapper">
-                            <img class="item__img" src="./images/icon/software-developer 1.svg" alt="clock">
-                        </div>
-                    </div>
-                    <div class="we__item">
-                        <div class="img__wrapper">
-                            <img class="item__img" src="./images/icon/module 1.svg" alt="module">
-                        </div>
-                        <div class="item-left__wrapper">
-                            <h3 class="item__title">Участь у стартапах</h3>
-                            <p class="item__text">У нашій компанії, яка налічує багато стартапів, ми надаємо учасникам розробки можливість <span class="text__bolt">отримати відсоток</span> від прибутку. Також ти розберешся в Drupal API та зможеш писати <span class="text__bolt">свої модулі</span></p>
-                        </div>
-                    </div>
-                
-                </div>
-                <div class="we__block--4">
-                    <div class="we__item">
-                        <div class="item-rigth__wrapper">
-                            <h3 class="item__title">Можливості Drupal</h3>
-                            <p class="item__text">Завдяки Drupal ви можете створити <span class="text__bolt">будь-який тип
-                                    веб-сайту,</span>
-                                від лендінгу до соціальної мережі, і отримати <span class="text__bolt">повноцінну професію,</span> що
-                                дозволить вам працювати як в складі компанії, так і окремо як фрілансер.</p>
-                        </div>
-                        <div class="img__wrapper">
-                            <img class="item__img" src="./images/icon/atom 1.svg" alt="clock">
-                        </div>
-                    </div>
-                    <div class="we__item">
-                        <div class="img__wrapper">
-                            <img class="item__img" src="./images/icon/workspace.svg" alt="workspace">
-                        </div>
-                        <div class="item-left__wrapper">
-                            <h3 class="item__title">Сучасна техніка</h3>
-                            <p class="item__text">Ми забезпечуємо всіх виконавців <span class="text__bolt">сучасною технікою від
-                                    Apple.</span> Кожен співробітник отримує свій власний MacBook, що дозволяє працювати з надійним та
-                                потужним обладнанням, якісно
-                                виконувати будь-які поточні завдання.</p>
-                        </div>
-                    </div>
-                
-                </div>
-                <div class="we__block--5">
-                    <div class="we__item">
-                        <div class="item-rigth__wrapper">
-                            <h3 class="item__title">Навички та підтримка</h3>
-                            <p class="item__text">Працюючи у нас ти будеш працювати з препроцесорами, шаблонізаторами, різними
-                                бібліотеками,
-                                Doker, Git і з усім цим ми <span class="text__bolt">тобі допоможемо розібратися</span> і дамо можливість
-                                <span class="text__bolt">свої знання сповна реалізувати.</span>
-                            </p>
-                        </div>
-                        <div class="img__wrapper">
-                            <img class="item__img" src="./images/icon/meeting 1.svg" alt="clock">
-                        </div>
-                    </div>
-                    <div class="we__item">
-                        <div class="img__wrapper">
-                            <img class="item__img" src="./images/icon/xbox 1.svg" alt="xbox">
-                        </div>
-                        <div class="item-left__wrapper">
-                            <h3 class="item__title">Відпочинок та розваги</h3>
-                            <p class="item__text">Ми облаштували комфортні зони відпочинку на свіжому повітрі. Окрім цього, в офісі є
-                                <span class="text__bolt"> PlayStation та VR-окуляри,</span>
-                                тож під час перерв або після робочого дня завжди можна розважитися.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="logo__around">
-                    
-                    <div class="logo">
-                        <!-- <img src="./images/We/around-left.svg" alt="around-left"> -->
-                        <div class="logo__wrapper">
-                            <img class="logo__img" src="./images/We/We-logo.svg" alt="logo">
-                        </div>
-                        <!-- <img src="./images/We/around-rigth.svg" alt="around-rigth"> -->
-                    </div>
-                </div>
+          </div>
+          <div class="we__item">
+            <div class="img__wrapper">
+              <img class="item__img" src="./images/icon/client 1.svg" alt="client" />
             </div>
-            
-            <div class="swiper">
-                <div class="swiper-wrapper">
-                    <!-- Slides -->
-                    <div class="swiper-slide">
-                        <img src="./images/We/Gallery/IMG_1.jpg" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="./images/We/Gallery/IMG_2.jpg" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="./images/We/Gallery/IMG_3.jpg" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="./images/We/Gallery/IMG_4.jpg" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                    </div>
-                </div>
-
-                <div class="swiper-button-prev">
-                    <img src="./images/We/Arrow-left.svg" alt="Arrow-left">
-                </div>
-                <div class="swiper-button-next">
-                    <img src="./images/We/Arrow-rigth.svg" alt="Arrow-rigth">
-                </div>
+            <div class="item-left__wrapper">
+              <h3 class="item__title">Постійний потік клієнтів</h3>
+              <p class="item__text">
+                У нас потік <span class="text__bolt">нових замовлень,</span> тому щоразу ти зможеш
+                спробувати реалізувати щось нове
+              </p>
             </div>
-          </section>
+          </div>
+        </div>
+        <div class="we__block--3">
+          <div class="we__item">
+            <div class="item-rigth__wrapper">
+              <h3 class="item__title">Швидкий розвиток</h3>
+              <p class="item__text">
+                За короткий проміжок часу ти
+                <span class="text__bolt">стаєш повноцінним веброзробником</span> і тобі не важливо
+                що то буде за макет, ти зможеш реалізувати все!
+              </p>
+            </div>
+            <div class="img__wrapper">
+              <img class="item__img" src="./images/icon/software-developer 1.svg" alt="clock" />
+            </div>
+          </div>
+          <div class="we__item">
+            <div class="img__wrapper">
+              <img class="item__img" src="./images/icon/module 1.svg" alt="module" />
+            </div>
+            <div class="item-left__wrapper">
+              <h3 class="item__title">Участь у стартапах</h3>
+              <p class="item__text">
+                У нашій компанії, яка налічує багато стартапів, ми надаємо учасникам розробки
+                можливість <span class="text__bolt">отримати відсоток</span> від прибутку. Також ти
+                розберешся в Drupal API та зможеш писати <span class="text__bolt">свої модулі</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="we__block--4">
+          <div class="we__item">
+            <div class="item-rigth__wrapper">
+              <h3 class="item__title">Можливості Drupal</h3>
+              <p class="item__text">
+                Завдяки Drupal ви можете створити
+                <span class="text__bolt">будь-який тип веб-сайту,</span> від лендінгу до соціальної
+                мережі, і отримати <span class="text__bolt">повноцінну професію,</span> що дозволить
+                вам працювати як в складі компанії, так і окремо як фрілансер.
+              </p>
+            </div>
+            <div class="img__wrapper">
+              <img class="item__img" src="./images/icon/atom 1.svg" alt="clock" />
+            </div>
+          </div>
+          <div class="we__item">
+            <div class="img__wrapper">
+              <img class="item__img" src="./images/icon/workspace.svg" alt="workspace" />
+            </div>
+            <div class="item-left__wrapper">
+              <h3 class="item__title">Сучасна техніка</h3>
+              <p class="item__text">
+                Ми забезпечуємо всіх виконавців
+                <span class="text__bolt">сучасною технікою від Apple.</span> Кожен співробітник
+                отримує свій власний MacBook, що дозволяє працювати з надійним та потужним
+                обладнанням, якісно виконувати будь-які поточні завдання.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="we__block--5">
+          <div class="we__item">
+            <div class="item-rigth__wrapper">
+              <h3 class="item__title">Навички та підтримка</h3>
+              <p class="item__text">
+                Працюючи у нас ти будеш працювати з препроцесорами, шаблонізаторами, різними
+                бібліотеками, Doker, Git і з усім цим ми
+                <span class="text__bolt">тобі допоможемо розібратися</span> і дамо можливість
+                <span class="text__bolt">свої знання сповна реалізувати.</span>
+              </p>
+            </div>
+            <div class="img__wrapper">
+              <img class="item__img" src="./images/icon/meeting 1.svg" alt="clock" />
+            </div>
+          </div>
+          <div class="we__item">
+            <div class="img__wrapper">
+              <img class="item__img" src="./images/icon/xbox 1.svg" alt="xbox" />
+            </div>
+            <div class="item-left__wrapper">
+              <h3 class="item__title">Відпочинок та розваги</h3>
+              <p class="item__text">
+                Ми облаштували комфортні зони відпочинку на свіжому повітрі. Окрім цього, в офісі є
+                <span class="text__bolt"> PlayStation та VR-окуляри,</span>
+                тож під час перерв або після робочого дня завжди можна розважитися.
+              </p>
+            </div>
+          </div>
+        </div>
 
-          <!-- Drupal -->
-           <section class="drupal">
-            <h2 class="drupal__title">Наш вклад в Drupal</h2>
-            <ul class="drupal__list">
-                <li class="drupal__item">
-                    <img class="drupal__img" src="./images/drupal/logo_1.svg" alt="Ukraine community">
-                    <h3 class="drupal__subtitle">Ми зробили сайт спільноти drupal.ua</h3>
-                    <p class="drupal_-text">Ми розуміємо, що кожна людина має унікальні потреби та обставини, тому пропонуємо гнучкий режим роботи, який враховує <span class="drupal__bolt">індивідуальні вимоги</span> та дозволяє пристосуватися до них.</p>
-                </li>
-                <li class="drupal__item">
-                    <img class="drupal__img" src="./images/drupal/logo_2.svg" alt="One source">
-                    <h3 class="drupal__subtitle">Робимо вклад в Open Source</h3>
-                    <p class="drupal_-text">Drupal – це не тільки широке міжнародне співтовариство, але й потужна технологія OpenSource. Наша команда <span class="drupal__bolt">створює публікує власні модулі та теми</span> оформлення на Drupal.org.</p>
-                </li>
-                <li class="drupal__item">
-                    <img class="drupal__img" src="./images/drupal/logo_3.svg" alt="Alternative">
-                    <h3 class="drupal__subtitle">Дали людям безкоштовно e-commerce платформу</h3>
-                    <p class="drupal__text">Alternative commerce - безкоштовний 100% готовий сайт-магазин на основі Drupal. Ви можете завантажити та <span class="drupal__bolt">почати робити покупки на своєму хостингу!</span> Або за нашої підтримки та хостингу!</p>
-                </li>
-            </ul>
-           </section>
+        <div class="logo__around">
+          <div class="logo">
+            <!-- <img src="./images/We/around-left.svg" alt="around-left"> -->
+            <div class="logo__wrapper">
+              <img class="logo__img" src="./images/We/We-logo.svg" alt="logo" />
+            </div>
+            <!-- <img src="./images/We/around-rigth.svg" alt="around-rigth"> -->
+          </div>
+        </div>
+      </div>
 
-           <!-- Clients -->
-            <section class="clients">
-                <h2 class="clients__title">З нами працюють:</h2>
-                <div class="swiper"> 
-                    <div class="swiper-wrapper my__wrapper">
-                        <div class="swiper-slide">
-                            <div class="cliets__item">
-                                <a href="https://toyota.vn.ua" target="_blank">
-                                    <img src="./images/clients/Toyota.svg" alt="Toyota logo">
-                                </a>
-                           </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="cliets__item">
-                                <a href="https://www.bravoairways.com.ua/ua" target="_blank">
-                                    <img src="./images/clients/bravo.svg" alt="Bravo logo">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="cliets__item">
-                                <a href="https://apteka.net.ua" target="_blank">
-                                    <img src="./images/clients/apteka.svg" alt="Аптека logo">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="cliets__item">
-                                <a href="https://gemix.ua/" target="_blank">
-                                    <img src="./images/clients/gemix.svg" alt="Gemix logo">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="cliets__item">
-                                <a href="https://www.csdlab.ua/" target="_blank">
-                                    <img src="./images/clients/CSD.svg" alt="CSD logo">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="cliets__item">
-                                <a href="https://momentum.in.ua/" target="_blank">
-                                    <img src="./images/clients/momentum.svg" alt="Momentum logo">
-                                </a>
-                            </div>
-                        </div>
-                        
-                    </div>
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <img src="./images/We/Gallery/IMG_1.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/We/Gallery/IMG_2.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/We/Gallery/IMG_3.jpg" alt="" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/We/Gallery/IMG_4.jpg" alt="" />
+          </div>
+          <div class="swiper-slide"></div>
+        </div>
 
-                    <div class="swiper-button-prev arrow__left">
-                        <img src="./images/We/Arrow-left.svg" alt="Arrow-left">
-                    </div>
-                    <div class="swiper-button-next arrow__rigth">
-                        <img src="./images/We/Arrow-rigth.svg" alt="Arrow-rigth">
-                    </div>
-                </div>
+        <div class="swiper-button-prev">
+          <img src="./images/We/Arrow-left.svg" alt="Arrow-left" />
+        </div>
+        <div class="swiper-button-next">
+          <img src="./images/We/Arrow-rigth.svg" alt="Arrow-rigth" />
+        </div>
+      </div>
+    </section>
 
-            </section>
+    <!-- Drupal -->
+    <section class="drupal">
+      <h2 class="drupal__title">Наш вклад в Drupal</h2>
+      <ul class="drupal__list">
+        <li class="drupal__item">
+          <img class="drupal__img" src="./images/drupal/logo_1.svg" alt="Ukraine community" />
+          <h3 class="drupal__subtitle">Ми зробили сайт спільноти drupal.ua</h3>
+          <p class="drupal_-text">
+            Ми розуміємо, що кожна людина має унікальні потреби та обставини, тому пропонуємо
+            гнучкий режим роботи, який враховує
+            <span class="drupal__bolt">індивідуальні вимоги</span> та дозволяє пристосуватися до
+            них.
+          </p>
+        </li>
+        <li class="drupal__item">
+          <img class="drupal__img" src="./images/drupal/logo_2.svg" alt="One source" />
+          <h3 class="drupal__subtitle">Робимо вклад в Open Source</h3>
+          <p class="drupal_-text">
+            Drupal – це не тільки широке міжнародне співтовариство, але й потужна технологія
+            OpenSource. Наша команда
+            <span class="drupal__bolt">створює публікує власні модулі та теми</span> оформлення на
+            Drupal.org.
+          </p>
+        </li>
+        <li class="drupal__item">
+          <img class="drupal__img" src="./images/drupal/logo_3.svg" alt="Alternative" />
+          <h3 class="drupal__subtitle">Дали людям безкоштовно e-commerce платформу</h3>
+          <p class="drupal__text">
+            Alternative commerce - безкоштовний 100% готовий сайт-магазин на основі Drupal. Ви
+            можете завантажити та
+            <span class="drupal__bolt">почати робити покупки на своєму хостингу!</span> Або за нашої
+            підтримки та хостингу!
+          </p>
+        </li>
+      </ul>
+    </section>
 
-            <!-- Сharity -->
-             <section class="charity">
-                <div class="charity__content">
-                <div class="charity__1">
-                    <h2 class="charity__title">Благодійність</h2>
-                    <p class="charity__text--bolt">Наша місія — зробити світ кращим, і ми віримо, що благодійність є одним з ключових інструментів для досягнення цієї
-                        мети.</p>
-                    <p class="charity__text">
-                        Ми вважаємо, що кожен бізнес має відповідальність перед суспільством, у якому він працює. Тому наша компанія докладає
-                        максимальних зусиль для підтримки благодійних організацій, проєктів, соціальних ініціатив та робить усе можливе для
-                        пришвидшення нашої перемоги, допомагаючи Збройним силам України.
-                    </p>
-                </div>
-                <div class="charity__img">
-                    <img class="charity__img--1" src="./images/charity/charity_img-1.jpg" alt="">
-                    <img class="charity__img--2" src="./images/charity/charity_img-2.jpg" alt="">
-                    <img class="charity__img--3" src="./images/charity/charity_img-3.jpg" alt="">
-                </div>
-                </div>
-                <ul class="charity__list">
-                    <li class="charity__item">
-                        <img src="./images/charity/trident.png" alt="trident" class="charity__item--img">
-                        <h3 class="charity__item--subititle">Допомога ЗСУ</h3>
-                        <p class="charity__item--text">Наші герої потребують уваги та підтримки, тому будь-яка допомога, навіть найменша, важлива. Разом — ми сила!</p>
-                    </li>
-                    <li class="charity__item">
-                        <img src="./images/charity/light.svg" alt="light" class="charity__item--img">
-                        <h3 class="charity__item--subititle">Пункт незламності</h3>
-                        <p class="charity__item--text">Восени 2022 року, коли країна перебувала під загрозою блекауту, ми добровільно облаштували “Пункт незламності” в нашому
-                        офісі.</p>
-                    </li>
-                    <li class="charity__item">
-                        <img src="./images/charity/computer.svg" alt="computer" class="charity__item--img">
-                        <h3 class="charity__item--subititle">Компʼютерний клас</h3>
-                        <p class="charity__item--text">Здійснили повне оновлення комп'ютерного класу у КЗ "Зарванецька гімназія". Цей проєкт був частиною соціальної
-                        відповідальності та прагнення покращити освітні умови для молодого покоління.</p>
-                    </li>
-                    <li class="charity__item">
-                        <img src="./images/charity/paw.svg" alt="paw" class="charity__item--img">
-                        <h3 class="charity__item--subititle">Стерилізація і вакцинація місцевих тварин</h3>
-                        <p class="charity__item--text">Стерилізація допомагає контролювати розмноження безпритульних тварин та зменшити їх кількість в майбутньому.</p>
-                    </li>
-                    <li class="charity__item">
-                        <img src="./images/charity/broom.svg" alt="broom" class="charity__item--img">
-                        <h3 class="charity__item--subititle">Прибирання “Чижової посадки”</h3>
-                        <p class="charity__item--text">Минулого року була проведена екологічна акція прибирання лісового масиву “Чижова посадка”. За участю добровольців було
-                        зібрано близько ста мішків сміття, яке вивозили трьома вантажівками.</p>
-                    </li>
-                    <li class="charity__item">
-                        <img src="./images/charity/book.svg" alt="book" class="charity__item--img">
-                        <h3 class="charity__item--subititle">Додаткові проєкти</h3>
-                        <p class="charity__item--text">Одним із наступних проєктів, який вже невдовзі буде реалізовано – будиночки для безкоштовного обміну дитячою
-                        літературою. Його задум має назву "Читацький клуб".</p>
-                    </li>
-                </ul>
-             </section>
-        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-        <script defer src="./js/we__gallery.js"></script>
-        
-</body>
+    <!-- Clients -->
+    <section class="clients">
+      <h2 class="clients__title">З нами працюють:</h2>
+      <div class="swiper">
+        <div class="swiper-wrapper my__wrapper">
+          <div class="swiper-slide">
+            <div class="cliets__item">
+              <a href="https://toyota.vn.ua" target="_blank">
+                <img src="./images/clients/Toyota.svg" alt="Toyota logo" />
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="cliets__item">
+              <a href="https://www.bravoairways.com.ua/ua" target="_blank">
+                <img src="./images/clients/bravo.svg" alt="Bravo logo" />
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="cliets__item">
+              <a href="https://apteka.net.ua" target="_blank">
+                <img src="./images/clients/apteka.svg" alt="Аптека logo" />
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="cliets__item">
+              <a href="https://gemix.ua/" target="_blank">
+                <img src="./images/clients/gemix.svg" alt="Gemix logo" />
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="cliets__item">
+              <a href="https://www.csdlab.ua/" target="_blank">
+                <img src="./images/clients/CSD.svg" alt="CSD logo" />
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="cliets__item">
+              <a href="https://momentum.in.ua/" target="_blank">
+                <img src="./images/clients/momentum.svg" alt="Momentum logo" />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-button-prev arrow__left">
+          <img src="./images/We/Arrow-left.svg" alt="Arrow-left" />
+        </div>
+        <div class="swiper-button-next arrow__rigth">
+          <img src="./images/We/Arrow-rigth.svg" alt="Arrow-rigth" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Сharity -->
+    <section class="charity">
+      <div class="charity__content">
+        <div class="charity__1">
+          <h2 class="charity__title">Благодійність</h2>
+          <p class="charity__text--bolt">
+            Наша місія — зробити світ кращим, і ми віримо, що благодійність є одним з ключових
+            інструментів для досягнення цієї мети.
+          </p>
+          <p class="charity__text">
+            Ми вважаємо, що кожен бізнес має відповідальність перед суспільством, у якому він
+            працює. Тому наша компанія докладає максимальних зусиль для підтримки благодійних
+            організацій, проєктів, соціальних ініціатив та робить усе можливе для пришвидшення нашої
+            перемоги, допомагаючи Збройним силам України.
+          </p>
+        </div>
+        <div class="charity__img">
+          <img class="charity__img--1" src="./images/charity/charity_img-1.jpg" alt="" />
+          <img class="charity__img--2" src="./images/charity/charity_img-2.jpg" alt="" />
+          <img class="charity__img--3" src="./images/charity/charity_img-3.jpg" alt="" />
+        </div>
+      </div>
+      <ul class="charity__list">
+        <li class="charity__item">
+          <img src="./images/charity/trident.png" alt="trident" class="charity__item--img" />
+          <h3 class="charity__item--subititle">Допомога ЗСУ</h3>
+          <p class="charity__item--text">
+            Наші герої потребують уваги та підтримки, тому будь-яка допомога, навіть найменша,
+            важлива. Разом — ми сила!
+          </p>
+        </li>
+        <li class="charity__item">
+          <img src="./images/charity/light.svg" alt="light" class="charity__item--img" />
+          <h3 class="charity__item--subititle">Пункт незламності</h3>
+          <p class="charity__item--text">
+            Восени 2022 року, коли країна перебувала під загрозою блекауту, ми добровільно
+            облаштували “Пункт незламності” в нашому офісі.
+          </p>
+        </li>
+        <li class="charity__item">
+          <img src="./images/charity/computer.svg" alt="computer" class="charity__item--img" />
+          <h3 class="charity__item--subititle">Компʼютерний клас</h3>
+          <p class="charity__item--text">
+            Здійснили повне оновлення комп'ютерного класу у КЗ "Зарванецька гімназія". Цей проєкт
+            був частиною соціальної відповідальності та прагнення покращити освітні умови для
+            молодого покоління.
+          </p>
+        </li>
+        <li class="charity__item">
+          <img src="./images/charity/paw.svg" alt="paw" class="charity__item--img" />
+          <h3 class="charity__item--subititle">Стерилізація і вакцинація місцевих тварин</h3>
+          <p class="charity__item--text">
+            Стерилізація допомагає контролювати розмноження безпритульних тварин та зменшити їх
+            кількість в майбутньому.
+          </p>
+        </li>
+        <li class="charity__item">
+          <img src="./images/charity/broom.svg" alt="broom" class="charity__item--img" />
+          <h3 class="charity__item--subititle">Прибирання “Чижової посадки”</h3>
+          <p class="charity__item--text">
+            Минулого року була проведена екологічна акція прибирання лісового масиву “Чижова
+            посадка”. За участю добровольців було зібрано близько ста мішків сміття, яке вивозили
+            трьома вантажівками.
+          </p>
+        </li>
+        <li class="charity__item">
+          <img src="./images/charity/book.svg" alt="book" class="charity__item--img" />
+          <h3 class="charity__item--subititle">Додаткові проєкти</h3>
+          <p class="charity__item--text">
+            Одним із наступних проєктів, який вже невдовзі буде реалізовано – будиночки для
+            безкоштовного обміну дитячою літературою. Його задум має назву "Читацький клуб".
+          </p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer__info">
+        <img src="./images/footer/footer-logo.svg" alt="logo" class="footer__logo" />
+        <p class="footer__text">
+          Компанія працює з 2008 року під брендом Глянець. Ми використовуємо для роботи лише власну
+          нерухомість, техніку та сервери. Виконуємо всі замовлення виключно своїми ресурсами,
+          залучаємо до роботи лише штатних працівників. Завдяки цьому нас цінують як надійного
+          партнера та підрядника.
+        </p>
+        <p class="footer_motto">© 2023 Глянець™ — Розробка та підтримка сайтів</p>
+      </div>
+      <div class="footer__contacts">
+        <div class="footer__cont">
+          <h3 class="footer__subtitle">Зателефонуйте нам</h3>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <div class="item__tel">
+                <a class="tel__link" href="tel:0800759759"
+                  >0 (800) <span class="tel__bolt">759-759</span></a
+                >
+                <p>доб. 103</p>
+              </div>
+            </li>
+            <li class="footer__item">
+              <a
+                class="item__mail"
+                href="mailto:order@glyanec.net"
+                rel="noopener noreferrer nofollow"
+                >order@glyanec.net</a
+              >
+            </li>
+            <li class="footer__item">
+              <div class="footer__socials">
+                <a href="https://www.facebook.com/Glyanecnet"
+                  ><img src="./images/footer/facebook 2.svg" alt="facebook"
+                /></a>
+                <a href="https://www.instagram.com/glyanecnet"
+                  ><img src="./images/footer/instagram 2.svg" alt="instagram"
+                /></a>
+                <a href=""><img src="./images/footer/Google+.svg" alt="Google" /></a>
+                <a href="https://x.com"><img src="./images/footer/twitter.png" alt="twitter" /></a>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__adress">
+          <h3 class="footer__subtitle">Адреса нашого офісу</h3>
+          <p class="adress__text">21016, Україна, м. Вінниця, <span class="adress__text--bolt"><br></span>с. Зарванці, <br> вул. Архітектурна, 5А</span></p>
+          <p class="adress__gps">
+            GPS:
+            <a class="adress__gps--link"
+              href="https://www.google.com/maps/place/%D0%93%D0%BB%D1%8F%D0%BD%D0%B5%D1%86%D1%8C,+%D0%B7%D0%B0%D0%BC%D0%BE%D0%B2%D0%B8%D1%82%D0%B8+%D1%81%D0%B0%D0%B9%D1%82,+%D1%81%D1%82%D0%B2%D0%BE%D1%80%D0%B8%D1%82%D0%B8+%D1%81%D0%B0%D0%B9%D1%82,+%D1%80%D0%BE%D0%B7%D1%80%D0%BE%D0%B1%D0%BA%D0%B0+%D1%96%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82-%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD%D1%96%D0%B2+%D1%83+%D0%92%D1%96%D0%BD%D0%BD%D0%B8%D1%86%D1%96/@49.2343735,28.394346,18z/data=!4m6!3m5!1s0x472d5b881efe4d27:0xfe40cd7193eeed3!8m2!3d49.2343208!4d28.3939651!16s%2Fg%2F11g6_7z8pj?entry=ttu&g_ep=EgoyMDI0MTAxNS4wIKXMDSoASAFQAw%3D%3D"
+            >
+              49.234384, 28.394405</a
+            >
+          </p>
+        </div>
+        <div class="footer__startup">
+          <h3 class="footer__subtitle">Наші стартапи</h3>
+          <div class="startup__logo">
+            <div class="startup__logo--1">
+                <img class="startup__logo--Ukraine" src="./images/best-company/Ukraine.svg" alt="Ukraine" />
+                <img src="./images/footer/alternative.png" alt="Alternative" />
+            </div>
+            <img src="./images/footer/helpdesk.svg" alt="Helpdesk" />
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script defer src="./js/we__gallery.js"></script>
+  </body>
 </html>

@@ -655,6 +655,7 @@ img {
 
 .charity {
   padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .charity__title {
@@ -763,4 +764,140 @@ img {
 .charity__item--text {
   font-size: 16px;
   line-height: 1.5;
+}
+
+.footer {
+  margin-left: auto;
+  margin-right: auto;
+  background: url("../../images/footer/footer-bg.jpg");
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__info {
+  width: 525px;
+  height: 405px;
+  padding: 40px 30px 55px 75px;
+  background: var(--accent-color);
+}
+
+.footer__logo {
+  margin-bottom: 30px;
+}
+
+.footer__text {
+  margin-bottom: 69px;
+  font-size: 16px;
+  line-height: 1.25;
+}
+
+.footer__contacts {
+  padding-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__cont {
+  padding-left: 120px;
+  margin-right: 146px;
+}
+
+.footer__subtitle {
+  margin-bottom: 30px;
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.footer__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+  color: #FFF;
+}
+
+.item__tel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 8px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tel__link {
+  color: #FFF;
+  font-size: 24px;
+  line-height: 1.25;
+}
+
+.tel__bolt {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.25;
+  text-transform: uppercase;
+}
+
+.item__mail {
+  color: #FFF;
+  font-size: 24px;
+  line-height: 1.25;
+}
+
+.footer__socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 45px;
+}
+
+.footer__adress {
+  margin-right: 130px;
+}
+
+.adress__text {
+  margin-bottom: 20px;
+  color: #FFF;
+  font-size: 24px;
+  line-height: 1.25;
+}
+
+.adress__text--bolt {
+  font-weight: 700;
+}
+
+.adress__gps {
+  color: #FFF;
+  font-size: 20px;
+  line-height: 1.5%;
+}
+
+.adress__gps--link {
+  color: #FFF;
+  font-size: 20px;
+  line-height: 1.5;
+  text-decoration-line: underline;
+}
+
+.startup__logo--1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 44.71px;
+  margin-bottom: 23.16px;
 }/*# sourceMappingURL=main.css.map */
