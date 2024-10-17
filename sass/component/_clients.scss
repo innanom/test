@@ -1,0 +1,47 @@
+.clients {
+    // @extend %container;
+    width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    // position: relative;
+
+}
+
+.clients__title {
+    @extend %container;
+    margin-bottom: 50px;
+    font-size: 44px;
+    font-weight: 800;
+    line-height: 1.25;
+}
+
+.swiper .my__wrapper {
+    width: 1920px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+.swiper .cliets__item {
+    width: 270px;
+    height: 147px;
+    display: flex;
+    margin-right: 16px;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 4.392px;
+    background: #FFF;
+    box-shadow: 0px 0px 20px 0px rgba(75, 85, 89, 0.10);
+
+    
+    
+}
+
+.swiper .arrow__left {
+    left: 47px;
+}
+
+.swiper .arrow__rigth {
+    right: 47px;
+}

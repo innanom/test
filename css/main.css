@@ -7,7 +7,7 @@
   --anima-fast: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.drupal, .we, .best-company, .task, .hero, .header {
+.clients__title, .drupal, .we, .best-company, .task, .hero, .header {
   width: 1920px;
   margin-left: auto;
   margin-right: auto;
@@ -356,7 +356,7 @@ img {
   line-height: 1.5;
 }
 
-.clients {
+.partners {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -537,16 +537,14 @@ img {
 }
 
 .swiper .swiper-button-prev {
+  position: absolute;
   width: 56px;
   height: 53px;
-  left: 0px;
-  top: 38px;
 }
 
 .swiper .swiper-button-next {
   width: 56px;
   height: 53px;
-  right: 0;
 }
 
 .drupal {
@@ -606,4 +604,51 @@ img {
 
 .drupal__bolt {
   font-weight: 700;
+}
+
+.clients {
+  width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+}
+
+.clients__title {
+  margin-bottom: 50px;
+  font-size: 44px;
+  font-weight: 800;
+  line-height: 1.25;
+}
+
+.swiper .my__wrapper {
+  width: 1920px;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+.swiper .cliets__item {
+  width: 270px;
+  height: 147px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 16px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 4.392px;
+  background: #FFF;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(75, 85, 89, 0.1);
+          box-shadow: 0px 0px 20px 0px rgba(75, 85, 89, 0.1);
+}
+
+.swiper .arrow__left {
+  left: 47px;
+}
+
+.swiper .arrow__rigth {
+  right: 47px;
 }/*# sourceMappingURL=main.css.map */

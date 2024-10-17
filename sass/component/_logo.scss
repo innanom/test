@@ -1,0 +1,33 @@
+.logo__around {
+    display: flex;
+    position: absolute;
+    top: 22%;
+    left: 40%;
+
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFCD01;
+    width: 370px;
+    height: 370px;
+    border-radius: 50%;
+}
+
+.logo__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 236.786px;
+    height: 236.786px;
+    background: white;
+    border-radius: 50%;
+}
+
+.logo__img {
+    width: 131px;
+    height: 136px;
+
+}
