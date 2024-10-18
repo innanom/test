@@ -1,16 +1,22 @@
 .we {
-    @extend %container;
-
     padding-top: 100px;
       
 }
 
 .we__wrapper {
+    width: 1920px;
     position: relative;
     margin-bottom: 50px;
+
+    background-image:
+    url('/images/We/around-left.svg'),
+    url('/images/We/around-rigth.svg');
+    background-repeat: no-repeat;
+    background-position: 43% 43%, 56.3% 43%;
 }
 
 .we__title {
+    @extend %container;
     margin-bottom: 50px;
     font-size: 44px;
     font-weight: 800;
@@ -46,6 +52,7 @@
 }
 
 .img__wrapper {
+    position: relative;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -98,4 +105,48 @@
     justify-content: center;
 }
 
+.swiper .we__arrow-left {
+    top: 38px;
+    left: 47px;
+}
 
+.swiper .we__arrow-rigth {
+    right: 37px;
+}
+
+.circles__logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 160px;
+    left: 726px;
+}
+.circle__1 {
+    display: flex;
+    gap: 243px;
+    margin-bottom: 56px;
+
+}
+.circle__2 {
+    display: flex;
+    gap: 368px;
+    margin-bottom: 75px;
+}
+
+.circle__3 {
+    display: flex;
+    gap: 415px;
+    margin-bottom: 76px;
+}
+
+.circle__4 {
+    display: flex;
+    gap: 369px;
+    margin-bottom: 56px;
+}
+.circle__5 {
+    display: flex;
+    gap: 243px;
+}

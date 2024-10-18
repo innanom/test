@@ -2,11 +2,11 @@
     @extend %container;
     padding-top: 100px;
     padding-bottom: 47px;
-    background-image: url('../images/hero/Group.svg'), 
-        url('../../images/hero/hero-circle-big.svg'), 
-        url("../../images/hero/Vector.svg"),
-        url('../../images/hero/hero-circle-small-2.svg'),
-        url('../../images/hero/hero-circle-small.svg');
+    background-image: url('/images/hero/Group.svg'),
+        url('/images/hero/hero-circle-big.svg'), 
+        url("/images/hero/Vector.svg"),
+        url('/images/hero/hero-circle-small-2.svg'),
+        url('/images/hero/hero-circle-small.svg');
     background-repeat: no-repeat;
     background-position: 93% 65%, 0% 3.86%,  100% 53%,  1094px 513px, 61.98% 3.86%;
     

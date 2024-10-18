@@ -7,7 +7,7 @@
   --anima-fast: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.charity, .clients__title, .drupal, .we, .best-company, .task, .hero, .header {
+.charity, .clients__title, .drupal, .we__title, .best-company, .task, .hero, .header {
   width: 1920px;
   margin-left: auto;
   margin-right: auto;
@@ -123,8 +123,7 @@ body.no-scroll {
 img {
   display: block;
   max-width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  height: auto;
 }
 
 .header {
@@ -209,7 +208,7 @@ img {
 .hero {
   padding-top: 100px;
   padding-bottom: 47px;
-  background-image: url("../images/hero/Group.svg"), url("../../images/hero/hero-circle-big.svg"), url("../../images/hero/Vector.svg"), url("../../images/hero/hero-circle-small-2.svg"), url("../../images/hero/hero-circle-small.svg");
+  background-image: url("/images/hero/Group.svg"), url("/images/hero/hero-circle-big.svg"), url("/images/hero/Vector.svg"), url("/images/hero/hero-circle-small-2.svg"), url("/images/hero/hero-circle-small.svg");
   background-repeat: no-repeat;
   background-position: 93% 65%, 0% 3.86%, 100% 53%, 1094px 513px, 61.98% 3.86%;
 }
@@ -372,8 +371,12 @@ img {
 }
 
 .we__wrapper {
+  width: 1920px;
   position: relative;
   margin-bottom: 50px;
+  background-image: url("/images/We/around-left.svg"), url("/images/We/around-rigth.svg");
+  background-repeat: no-repeat;
+  background-position: 43% 43%, 56.3% 43%;
 }
 
 .we__title {
@@ -415,6 +418,7 @@ img {
 }
 
 .img__wrapper {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -481,6 +485,73 @@ img {
           justify-content: center;
 }
 
+.swiper .we__arrow-left {
+  top: 38px;
+  left: 47px;
+}
+
+.swiper .we__arrow-rigth {
+  right: 37px;
+}
+
+.circles__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  top: 160px;
+  left: 726px;
+}
+
+.circle__1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 243px;
+  margin-bottom: 56px;
+}
+
+.circle__2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 368px;
+  margin-bottom: 75px;
+}
+
+.circle__3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 415px;
+  margin-bottom: 76px;
+}
+
+.circle__4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 369px;
+  margin-bottom: 56px;
+}
+
+.circle__5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 243px;
+}
+
 .logo__around {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -545,6 +616,12 @@ img {
 .swiper .swiper-button-next {
   width: 56px;
   height: 53px;
+}
+
+.swiper .my__wrapper {
+  width: 1920px;
+  padding-left: 75px;
+  padding-right: 75px;
 }
 
 .drupal {
@@ -618,12 +695,6 @@ img {
   font-size: 44px;
   font-weight: 800;
   line-height: 1.25;
-}
-
-.swiper .my__wrapper {
-  width: 1920px;
-  padding-left: 75px;
-  padding-right: 75px;
 }
 
 .swiper .cliets__item {
@@ -895,6 +966,7 @@ img {
 }
 
 .startup__logo--1 {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
